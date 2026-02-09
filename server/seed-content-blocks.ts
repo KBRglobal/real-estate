@@ -32,8 +32,8 @@ const contentBlocksSeed = [
 
   // About Section
   { section: "about", blockKey: "title", value: "מי אנחנו", valueEn: "Who We Are" },
-  { section: "about", blockKey: "subtitle", value: "DDL - הדרך שלך להשקעה חכמה בדובאי", valueEn: "DDL - Your Path to Smart Investment in Dubai" },
-  { section: "about", blockKey: "description", value: "DDL היא חברת ליווי להשקעות נדל״ן בדובאי. אנחנו מתמחים בליווי משקיעים פרטיים בהשקעות נדל״ן בדובאי – מהשלב הראשון ועד לאחר סגירת העסקה.", valueEn: "DDL is a real estate investment guidance company in Dubai. We specialize in guiding private investors in Dubai real estate investments – from the first step to after closing the deal." },
+  { section: "about", blockKey: "subtitle", value: "PropLine - הדרך שלך להשקעה חכמה בדובאי", valueEn: "PropLine - Your Path to Smart Investment in Dubai" },
+  { section: "about", blockKey: "description", value: "PropLine היא חברת ליווי להשקעות נדל״ן בדובאי. אנחנו מתמחים בליווי משקיעים פרטיים בהשקעות נדל״ן בדובאי – מהשלב הראשון ועד לאחר סגירת העסקה.", valueEn: "PropLine is a real estate investment guidance company in Dubai. We specialize in guiding private investors in Dubai real estate investments – from the first step to after closing the deal." },
   { section: "about", blockKey: "license", value: "סוכן מקומי מורשה - רישיון 55545", valueEn: "Licensed Local Agent - License 55545" },
   { section: "about", blockKey: "card1_title", value: "סוכן מקומי בדובאי", valueEn: "Local Agent in Dubai" },
   { section: "about", blockKey: "card1_desc", value: "החברה פועלת מדובאי, הצוות נמצא בדובאי, והעבודה מתבצעת מתוך השוק עצמו", valueEn: "The company operates from Dubai, the team is in Dubai, and the work is done from within the market itself" },
@@ -44,22 +44,22 @@ const contentBlocksSeed = [
   { section: "about", blockKey: "card4_title", value: "זמינות 24/7", valueEn: "24/7 Availability" },
   { section: "about", blockKey: "card4_desc", value: "תמיכה רציפה בכל שלב של התהליך, מתחילתו ועד סופו", valueEn: "Continuous support at every stage of the process, from start to finish" },
 
-  // Why DDL Section
-  { section: "whyDdl", blockKey: "title", value: "מה מייחד אותנו?", valueEn: "What Makes Us Different?" },
-  { section: "whyDdl", blockKey: "subtitle", value: "פשטות. שקיפות. ליווי אישי.", valueEn: "Simplicity. Transparency. Personal Support." },
-  { section: "whyDdl", blockKey: "reason1_title", value: "סוכן מקומי בדובאי", valueEn: "Local Agent in Dubai" },
-  { section: "whyDdl", blockKey: "reason1_desc", value: "אנחנו חיים ופועלים מדובאי - לא שליחים מרחוק. גישה אמיתית לפרויקטים ועבודה ישירה מול קבלנים.", valueEn: "We live and operate from Dubai - not remote agents. Real access to projects and direct work with developers." },
-  { section: "whyDdl", blockKey: "reason2_title", value: "תהליך שקוף ומסודר", valueEn: "Transparent & Organized Process" },
-  { section: "whyDdl", blockKey: "reason2_desc", value: "5 שלבים ברורים ללא הפתעות. אנחנו מציגים את התמונה המלאה - יתרונות לצד סיכונים.", valueEn: "5 clear steps with no surprises. We present the full picture - benefits alongside risks." },
-  { section: "whyDdl", blockKey: "reason3_title", value: "ללא עמלות נסתרות", valueEn: "No Hidden Fees" },
-  { section: "whyDdl", blockKey: "reason3_desc", value: "עמלות גלויות מראש. מה שסוכם - זה מה שקורה. בלי תוספות ובלי אותיות קטנות.", valueEn: "Transparent fees upfront. What's agreed is what happens. No extras and no fine print." },
-  { section: "whyDdl", blockKey: "reason4_title", value: "ליווי אישי צמוד", valueEn: "Personal Support" },
-  { section: "whyDdl", blockKey: "reason4_desc", value: "כל משקיע מקבל מנהל לקוח אישי שילווה אותו מהשלב הראשון ועד לאחר סגירת העסקה.", valueEn: "Every investor gets a personal account manager who guides them from the first step to beyond closing." },
-  { section: "whyDdl", blockKey: "reason5_title", value: "זמינות 24/7", valueEn: "Available 24/7" },
-  { section: "whyDdl", blockKey: "reason5_desc", value: "תמיד זמינים לשאלות ולעדכונים. הפרשי השעות לא מעכבים אותנו.", valueEn: "Always available for questions and updates. Time differences don't slow us down." },
-  { section: "whyDdl", blockKey: "reason6_title", value: "ביטחון בעסקה", valueEn: "Transaction Security" },
-  { section: "whyDdl", blockKey: "reason6_desc", value: "עובדים רק עם קבלנים מאושרים וליווי משפטי מלא בכל שלב.", valueEn: "We work only with approved developers and provide full legal support at every step." },
-  { section: "whyDdl", blockKey: "quote", value: "המטרה שלנו אינה למכור נכס, אלא לבנות עסקה נכונה לטווח הנכון", valueEn: "Our goal is not to sell a property, but to build the right deal for the right timeline" },
+  // Why PropLine Section
+  { section: "whyPropline", blockKey: "title", value: "מה מייחד אותנו?", valueEn: "What Makes Us Different?" },
+  { section: "whyPropline", blockKey: "subtitle", value: "פשטות. שקיפות. ליווי אישי.", valueEn: "Simplicity. Transparency. Personal Support." },
+  { section: "whyPropline", blockKey: "reason1_title", value: "סוכן מקומי בדובאי", valueEn: "Local Agent in Dubai" },
+  { section: "whyPropline", blockKey: "reason1_desc", value: "אנחנו חיים ופועלים מדובאי - לא שליחים מרחוק. גישה אמיתית לפרויקטים ועבודה ישירה מול קבלנים.", valueEn: "We live and operate from Dubai - not remote agents. Real access to projects and direct work with developers." },
+  { section: "whyPropline", blockKey: "reason2_title", value: "תהליך שקוף ומסודר", valueEn: "Transparent & Organized Process" },
+  { section: "whyPropline", blockKey: "reason2_desc", value: "5 שלבים ברורים ללא הפתעות. אנחנו מציגים את התמונה המלאה - יתרונות לצד סיכונים.", valueEn: "5 clear steps with no surprises. We present the full picture - benefits alongside risks." },
+  { section: "whyPropline", blockKey: "reason3_title", value: "ללא עמלות נסתרות", valueEn: "No Hidden Fees" },
+  { section: "whyPropline", blockKey: "reason3_desc", value: "עמלות גלויות מראש. מה שסוכם - זה מה שקורה. בלי תוספות ובלי אותיות קטנות.", valueEn: "Transparent fees upfront. What's agreed is what happens. No extras and no fine print." },
+  { section: "whyPropline", blockKey: "reason4_title", value: "ליווי אישי צמוד", valueEn: "Personal Support" },
+  { section: "whyPropline", blockKey: "reason4_desc", value: "כל משקיע מקבל מנהל לקוח אישי שילווה אותו מהשלב הראשון ועד לאחר סגירת העסקה.", valueEn: "Every investor gets a personal account manager who guides them from the first step to beyond closing." },
+  { section: "whyPropline", blockKey: "reason5_title", value: "זמינות 24/7", valueEn: "Available 24/7" },
+  { section: "whyPropline", blockKey: "reason5_desc", value: "תמיד זמינים לשאלות ולעדכונים. הפרשי השעות לא מעכבים אותנו.", valueEn: "Always available for questions and updates. Time differences don't slow us down." },
+  { section: "whyPropline", blockKey: "reason6_title", value: "ביטחון בעסקה", valueEn: "Transaction Security" },
+  { section: "whyPropline", blockKey: "reason6_desc", value: "עובדים רק עם קבלנים מאושרים וליווי משפטי מלא בכל שלב.", valueEn: "We work only with approved developers and provide full legal support at every step." },
+  { section: "whyPropline", blockKey: "quote", value: "המטרה שלנו אינה למכור נכס, אלא לבנות עסקה נכונה לטווח הנכון", valueEn: "Our goal is not to sell a property, but to build the right deal for the right timeline" },
 
   // Why Dubai Section
   { section: "whyDubai", blockKey: "title", value: "למה להשקיע בדובאי?", valueEn: "Why Invest in Dubai?" },
@@ -120,35 +120,35 @@ const contentBlocksSeed = [
 // Site settings seed data
 const settingsSeed = [
   // General
-  { key: "site_name", value: "DDL Real Estate", category: "general" },
-  { key: "site_name_he", value: "DDL נדל״ן דובאי", category: "general" },
+  { key: "site_name", value: "PropLine Real Estate", category: "general" },
+  { key: "site_name_he", value: "PropLine נדל״ן דובאי", category: "general" },
   { key: "site_description", value: "Your gateway to Dubai real estate investments", category: "general" },
   { key: "site_description_he", value: "הדרך שלך להשקעות נדל״ן בדובאי", category: "general" },
   { key: "default_language", value: "he", category: "general" },
-  { key: "company_name", value: "DDL Real Estate Ltd.", category: "general" },
+  { key: "company_name", value: "PropLine Real Estate Ltd.", category: "general" },
   { key: "license_number", value: "55545", category: "general" },
 
   // Contact
   { key: "phone", value: "+972508896702", category: "contact" },
   { key: "phone_display", value: "050-889-6702", category: "contact" },
   { key: "whatsapp", value: "972508896702", category: "contact" },
-  { key: "email", value: "info@ddl-dubai.com", category: "contact" },
-  { key: "email_sales", value: "sales@ddl-dubai.com", category: "contact" },
+  { key: "email", value: "info@propline.com", category: "contact" },
+  { key: "email_sales", value: "sales@propline.com", category: "contact" },
   { key: "address", value: "Dubai, UAE", category: "contact" },
   { key: "address_he", value: "דובאי, איחוד האמירויות הערביות", category: "contact" },
   { key: "working_hours", value: "24/7", category: "contact" },
 
   // Social
   { key: "facebook_url", value: "https://www.facebook.com/share/1EpVjGVWkJ/", category: "social" },
-  { key: "instagram_url", value: "https://www.instagram.com/ddlrealestatedubai", category: "social" },
+  { key: "instagram_url", value: "https://www.instagram.com/proplinerealestate", category: "social" },
   { key: "linkedin_url", value: "", category: "social" },
   { key: "twitter_url", value: "", category: "social" },
   { key: "youtube_url", value: "", category: "social" },
   { key: "tiktok_url", value: "", category: "social" },
 
   // SEO
-  { key: "meta_title", value: "DDL - Dubai Real Estate Investments", category: "seo" },
-  { key: "meta_title_he", value: "DDL - השקעות נדל״ן בדובאי", category: "seo" },
+  { key: "meta_title", value: "PropLine - Dubai Real Estate Investments", category: "seo" },
+  { key: "meta_title_he", value: "PropLine - השקעות נדל״ן בדובאי", category: "seo" },
   { key: "meta_description", value: "Your gateway to Dubai real estate investments. Simple. Transparent. Organized.", category: "seo" },
   { key: "meta_description_he", value: "הדרך שלך להשקעות נדל״ן בדובאי. פשוט. שקוף. מסודר.", category: "seo" },
   { key: "meta_keywords", value: "dubai, real estate, investment, property, freehold, roi", category: "seo" },

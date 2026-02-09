@@ -6,7 +6,7 @@ import { useLanguage } from "@/lib/i18n";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const DEFAULT_PHONE_NUMBER = "+972508896702";
-const DEFAULT_WHATSAPP_MESSAGE = "היי DDL הגעתי אליכם דרך האתר אשמח לשמוע פרטים נוספים";
+const DEFAULT_WHATSAPP_MESSAGE = "Hi, I found you through your website";
 
 interface FloatingContactButtonsProps {
   phoneNumber?: string;

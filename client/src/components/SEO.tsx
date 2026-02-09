@@ -54,7 +54,7 @@ export function SEO({ title, description, image, type = "website", noindex = fal
 
     // Update title if provided
     if (title) {
-      document.title = title.includes("DDL") ? title : `${title} | DDL Dubai`;
+      document.title = title.includes("PropLine") ? title : `${title} | PropLine Real Estate`;
     }
 
     // Update meta description if provided
@@ -182,7 +182,7 @@ export function generateRealEstateListingSchema(property: {
     } : undefined,
     "provider": {
       "@type": "RealEstateAgent",
-      "name": "DDL Dubai Real Estate",
+      "name": "PropLine Real Estate",
       "url": BASE_URL,
       "telephone": "+972-50-889-6702"
     }

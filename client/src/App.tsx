@@ -168,8 +168,8 @@ const HomePage = memo(function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="DDL | השקעות נדל״ן בדובאי - ליווי מקצועי ושקוף"
-        description="DDL - סוכנות השקעות נדל״ן מובילה בדובאי. ליווי משקיעים ישראלים מקצה לקצה, תשואות של 6-12%, 0% מס הכנסה. סוכן מקומי מורשה ברישיון RERA."
+        title="PropLine | השקעות נדל״ן בדובאי - ליווי מקצועי ושקוף"
+        description="PropLine - סוכנות השקעות נדל״ן מובילה בדובאי. ליווי משקיעים ישראלים מקצה לקצה, תשואות של 6-12%, 0% מס הכנסה. סוכן מקומי מורשה ברישיון RERA."
       />
       <Header />
       <main id="main-content" role="main" aria-label="תוכן ראשי">

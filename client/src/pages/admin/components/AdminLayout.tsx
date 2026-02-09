@@ -449,7 +449,7 @@ export function AdminLayout({ children, title, onLogout, badgeCounts = {}, isLoa
               <Menu className="h-5 w-5" />
             </button>
             <div className="flex items-center gap-2">
-              <img src={ddlLogo} alt="DDL Real Estate" className="h-7" data-testid="admin-logo-mobile" />
+              <img src={ddlLogo} alt="PropLine Real Estate" className="h-7" data-testid="admin-logo-mobile" />
               <span className="text-sm font-bold text-slate-900">KBR CMC</span>
             </div>
             <div className="flex items-center gap-1">
@@ -477,7 +477,7 @@ export function AdminLayout({ children, title, onLogout, badgeCounts = {}, isLoa
                 >
                   <div className="flex items-center justify-between p-4 border-b border-slate-200 shrink-0">
                     <div className="flex items-center gap-2.5">
-                      <img src={ddlLogo} alt="DDL Real Estate" className="h-9" />
+                      <img src={ddlLogo} alt="PropLine Real Estate" className="h-9" />
                       <div>
                         <span className="text-sm font-bold text-slate-900">KBR CMC</span>
                         <p className="text-[11px] text-slate-400">{lang === "he" ? "מערכת ניהול" : "Admin Panel"}</p>
@@ -516,7 +516,7 @@ export function AdminLayout({ children, title, onLogout, badgeCounts = {}, isLoa
             <div className="h-16 flex items-center justify-between px-3 border-b border-slate-200 shrink-0">
               {sidebarOpen ? (
                 <div className="flex items-center gap-2.5 overflow-hidden">
-                  <img src={ddlLogo} alt="DDL Real Estate" className="h-9 shrink-0" />
+                  <img src={ddlLogo} alt="PropLine Real Estate" className="h-9 shrink-0" />
                   <div className="min-w-0">
                     <span className="text-sm font-bold text-slate-900 block truncate">KBR CMC</span>
                     <p className="text-[11px] text-slate-400 truncate">{lang === "he" ? "מערכת ניהול" : "Admin Panel"}</p>
@@ -524,7 +524,7 @@ export function AdminLayout({ children, title, onLogout, badgeCounts = {}, isLoa
                 </div>
               ) : (
                 <div className="flex items-center justify-center w-full">
-                  <img src={ddlLogo} alt="DDL Real Estate" className="h-8" />
+                  <img src={ddlLogo} alt="PropLine Real Estate" className="h-8" />
                 </div>
               )}
               {sidebarOpen && (

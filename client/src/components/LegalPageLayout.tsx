@@ -43,13 +43,13 @@ export function LegalPageLayout({ children, title, titleEn }: LegalPageLayoutPro
             >
               <img
                 src={ddlLogo}
-                alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי"
+                alt="PropLine Real Estate"
                 className="h-12 w-auto"
                 loading="eager"
                 decoding="async"
               />
               <span className="text-xl font-bold text-primary hidden sm:block">
-                DDL
+                PropLine
               </span>
             </Link>
 
@@ -101,7 +101,7 @@ export function LegalPageLayout({ children, title, titleEn }: LegalPageLayoutPro
                 {isRTL ? title : titleEn}
               </h1>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-muted-foreground">
-                <span className="font-medium">DDL Real Estate L.L.C</span>
+                <span className="font-medium">PropLine Real Estate L.L.C</span>
                 <span className="hidden sm:inline text-primary/50">|</span>
                 <span className="text-sm">
                   {isRTL ? "עדכון אחרון: פברואר 2026" : "Last Updated: February 2026"}
@@ -144,9 +144,9 @@ export function LegalPageLayout({ children, title, titleEn }: LegalPageLayoutPro
           <div className="flex flex-col items-center gap-6">
             {/* Logo & Copyright */}
             <div className="flex flex-col items-center gap-3">
-              <img src={ddlLogo} alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי" className="h-10" width={120} height={40} loading="lazy" decoding="async" />
+              <img src={ddlLogo} alt="PropLine Real Estate" className="h-10" width={120} height={40} loading="lazy" decoding="async" />
               <p className="text-sm text-muted-foreground text-center">
-                © {new Date().getFullYear()} DDL Real Estate L.L.C. {t("footer.rights")}
+                © {new Date().getFullYear()} PropLine Real Estate L.L.C. {t("footer.rights")}
               </p>
             </div>
 

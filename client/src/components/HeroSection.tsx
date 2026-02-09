@@ -250,7 +250,7 @@ export function HeroSection() {
           </div>
           <img
             src={ddlLogo}
-            alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי"
+            alt="PropLine Real Estate"
             width={160}
             height={160}
             className="h-20 sm:h-32 md:h-40 w-auto mx-auto relative z-10"

@@ -67,7 +67,7 @@ export function Header() {
           >
             <img
               src={ddlLogo}
-              alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי"
+              alt="PropLine Real Estate"
               width={56}
               height={56}
               className="h-14 w-auto"

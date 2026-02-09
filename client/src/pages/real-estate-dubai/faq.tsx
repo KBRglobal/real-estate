@@ -69,11 +69,11 @@ const ARTICLE_SCHEMA = {
   "description": ANSWER_BLOCK,
   "author": {
     "@type": "Organization",
-    "name": "DDL Real Estate"
+    "name": "PropLine Real Estate"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "DDL Real Estate"
+    "name": "PropLine Real Estate"
   }
 };
 

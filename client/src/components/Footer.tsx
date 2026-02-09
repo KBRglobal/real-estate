@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import ddlLogo from "@assets/ddl_logo_1768141898381.png";
 
 const socialLinks = [
-  { icon: SiWhatsapp, href: "https://wa.me/972508896702?text=%D7%94%D7%99%D7%99%20DDL%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%90%D7%9C%D7%99%D7%9B%D7%9D%20%D7%93%D7%A8%D7%9A%20%D7%94%D7%90%D7%AA%D7%A8%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D%20%D7%A0%D7%95%D7%A1%D7%A4%D7%99%D7%9D", label: "WhatsApp" },
+  { icon: SiWhatsapp, href: "https://wa.me/972508896702?text=Hi%2C%20I%20found%20you%20through%20your%20website", label: "WhatsApp" },
   { icon: SiInstagram, href: "https://www.instagram.com/ddlrealestatedubai", label: "Instagram" },
   { icon: SiFacebook, href: "https://www.facebook.com/share/1EpVjGVWkJ/", label: "Facebook" },
 ];
@@ -37,7 +37,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <img
               src={ddlLogo}
-              alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי"
+              alt="PropLine Real Estate"
               className="h-16 w-auto mb-4"
               width={64}
               height={64}
@@ -129,7 +129,7 @@ export function Footer() {
         
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} DDL. {t("footer.copyright")}
+            © {new Date().getFullYear()} PropLine. {t("footer.copyright")}
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm text-muted-foreground">
             <Link

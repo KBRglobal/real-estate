@@ -1418,7 +1418,7 @@ export default function MiniSitePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4">
-              <img src={ddlLogo} alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי" className="h-12" loading="lazy" decoding="async" />
+              <img src={ddlLogo} alt="PropLine Real Estate - לוגו חברת נדל״ן יוקרה בדובאי" className="h-12" loading="lazy" decoding="async" />
               <div className="h-8 w-px bg-white/20" />
               <span className="text-white font-bold text-lg">{projectName}</span>
             </div>
@@ -1455,7 +1455,7 @@ export default function MiniSitePage() {
           
           <div className="mt-8 pt-8 border-t border-white/10 text-center">
             <p className="text-white/30 text-sm">
-              © {new Date().getFullYear()} DDL Real Estate. כל הזכויות שמורות.
+              © {new Date().getFullYear()} PropLine Real Estate. כל הזכויות שמורות.
             </p>
           </div>
         </div>

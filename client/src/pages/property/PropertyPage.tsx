@@ -199,7 +199,7 @@ export default function PropertyPage() {
       priceCurrency: project.priceCurrency || "AED",
       location: project.location || "Dubai",
       image: heroImage,
-      url: `https://ddl-dubai.com/project/${slug}`
+      url: `https://propline.com/project/${slug}`
     });
     injectJsonLd(realEstateSchema, "property-real-estate-listing");
 
@@ -253,7 +253,7 @@ export default function PropertyPage() {
     <div className="min-h-screen bg-background" dir="rtl">
       {/* SEO Component for canonical URLs and hreflang */}
       <SEO
-        title={`${project.name} - נדל״ן בדובאי | DDL Dubai`}
+        title={`${project.name} - נדל״ן בדובאי | PropLine`}
         description={project.description?.slice(0, 160) || `${project.name} - פרויקט נדל״ן יוקרתי בדובאי. ליווי מקצועי להשקעות נדל״ן.`}
         image={heroImage}
         type="product"

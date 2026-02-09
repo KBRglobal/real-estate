@@ -230,12 +230,12 @@ export function AdminDashboard({ onLogout }: DashboardProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <img src={ddlLogo} alt="DDL Real Estate - לוגו מערכת ניהול" className="h-10 w-auto" />
+              <img src={ddlLogo} alt="PropLine Real Estate - לוגו מערכת ניהול" className="h-10 w-auto" />
               <div>
                 <h1 className="text-xl font-bold text-foreground">
                   מערכת ניהול
                 </h1>
-                <p className="text-sm text-muted-foreground">DDL Admin Panel</p>
+                <p className="text-sm text-muted-foreground">PropLine Admin Panel</p>
               </div>
             </div>
 

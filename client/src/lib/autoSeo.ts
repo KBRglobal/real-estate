@@ -113,13 +113,13 @@ function generateSeoTitle(
 ): string {
   // Add suffix based on type
   const suffixes: Record<string, string> = {
-    page: " | DDL Dubai",
-    project: " - השקעות נדל\"ן בדובאי | DDL Dubai",
-    "mini-site": " | DDL Dubai Investments",
-    article: " | בלוג DDL Dubai",
+    page: " | PropLine",
+    project: " - השקעות נדל\"ן בדובאי | PropLine",
+    "mini-site": " | PropLine Investments",
+    article: " | בלוג PropLine",
   };
 
-  const suffix = suffixes[type] || " | DDL Dubai";
+  const suffix = suffixes[type] || " | PropLine";
   const availableLength = maxLength - suffix.length;
 
   if (title.length <= availableLength) {
@@ -158,7 +158,7 @@ function generateSchema(
         url: typeof window !== "undefined" ? window.location.href : "",
         provider: {
           "@type": "RealEstateAgent",
-          name: "DDL Dubai",
+          name: "PropLine",
           url: "https://ddl-dubai.com",
         },
       };
@@ -171,11 +171,11 @@ function generateSchema(
         description: metadata.description,
         author: {
           "@type": "Organization",
-          name: "DDL Dubai",
+          name: "PropLine",
         },
         publisher: {
           "@type": "Organization",
-          name: "DDL Dubai",
+          name: "PropLine",
           logo: {
             "@type": "ImageObject",
             url: "https://ddl-dubai.com/logo.png",
@@ -191,7 +191,7 @@ function generateSchema(
         description: metadata.description,
         isPartOf: {
           "@type": "WebSite",
-          name: "DDL Dubai",
+          name: "PropLine",
           url: "https://ddl-dubai.com",
         },
       };

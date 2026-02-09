@@ -9,7 +9,7 @@ interface TrustSectionV2Props {
 
 const testimonials = [
   {
-    quote: "השקעתי עם DDL והתהליך היה מקצועי ונוח מההתחלה ועד הסוף. ממליץ בחום!",
+    quote: "השקעתי דרך PropLine והתהליך היה מקצועי ונוח מההתחלה ועד הסוף. ממליץ בחום!",
     author: "אבי כ.",
     role: "משקיע",
     year: "2024",

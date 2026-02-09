@@ -79,7 +79,7 @@ function ChatWidgetInner() {
                 <MessageCircle className="h-4 w-4 text-[#0A0A0F]" />
               </div>
               <div>
-                <p className="text-white text-sm font-semibold">באנדי - יועץ DDL</p>
+                <p className="text-white text-sm font-semibold">PropLine Assistant</p>
                 <p className="text-white/50 text-xs">מוכן לעזור לך</p>
               </div>
             </div>

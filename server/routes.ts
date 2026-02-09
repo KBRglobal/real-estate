@@ -573,7 +573,7 @@ Sitemap: ${baseUrl}/sitemap.xml`;
     "hero.cta": { he: "התחל השקעה", en: "Start Investing" },
     "hero.calculator": { he: "מחשבון ROI", en: "ROI Calculator" },
     "about.title": { he: "מי אנחנו", en: "About Us" },
-    "about.subtitle": { he: "DDL - הדרך שלך להשקעה חכמה בדובאי", en: "DDL - Your Path to Smart Dubai Investment" },
+    "about.subtitle": { he: "PropLine - הדרך שלך להשקעה חכמה בדובאי", en: "PropLine - Your Path to Smart Dubai Investment" },
     "whyDubai.title": { he: "למה דובאי?", en: "Why Dubai?" },
     "whyDubai.subtitle": { he: "הזדמנות השקעה ייחודית", en: "Unique Investment Opportunity" },
     "whyDubai.tax.title": { he: "0% מס הכנסה", en: "0% Income Tax" },

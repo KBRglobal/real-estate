@@ -88,9 +88,9 @@ const HOMEPAGE_SECTIONS = {
       { key: "card4_desc", label: "כרטיס 4 - תיאור", labelEn: "Card 4 Description", type: "textarea" },
     ],
   },
-  whyDdl: {
-    label: "Why DDL Section",
-    labelHe: "סקשן למה DDL",
+  whyPropline: {
+    label: "Why PropLine Section",
+    labelHe: "סקשן למה PropLine",
     icon: Sparkles,
     color: "bg-purple-500/10 text-purple-600",
     fields: [

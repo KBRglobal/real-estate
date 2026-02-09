@@ -69,7 +69,7 @@ export function AdminLogin({ onLogin }: LoginProps) {
           <div className="text-center mb-8">
             <img
               src={ddlLogo}
-              alt="DDL Real Estate - לוגו מערכת ניהול"
+              alt="PropLine Real Estate - לוגו מערכת ניהול"
               className="h-16 w-auto mx-auto mb-4"
               style={{
                 filter: "drop-shadow(0 0 20px rgba(37, 99, 235, 0.3))",
@@ -149,7 +149,7 @@ export function AdminLogin({ onLogin }: LoginProps) {
         </Card>
 
         <p className="text-center text-sm text-slate-500 mt-4">
-          DDL Admin Panel v1.0
+          PropLine Admin Panel v1.0
         </p>
       </motion.div>
     </div>

@@ -66,13 +66,13 @@ const KV_CATEGORIES = {
     icon: Search,
     color: "bg-amber-500/10 text-amber-600",
     fields: [
-      { key: "meta_title", label: "Meta Title", type: "text" as const, placeholder: "DDL - Dubai Real Estate Investments", dir: "ltr" as const },
-      { key: "meta_title_he", label: "Meta Title (\u05E2\u05D1\u05E8\u05D9\u05EA)", type: "text" as const, placeholder: "DDL - \u05D4\u05E9\u05E7\u05E2\u05D5\u05EA \u05E0\u05D3\u05DC\u05F4\u05DF \u05D1\u05D3\u05D5\u05D1\u05D0\u05D9" },
+      { key: "meta_title", label: "Meta Title", type: "text" as const, placeholder: "PropLine - Dubai Real Estate Investments", dir: "ltr" as const },
+      { key: "meta_title_he", label: "Meta Title (\u05E2\u05D1\u05E8\u05D9\u05EA)", type: "text" as const, placeholder: "PropLine - \u05D4\u05E9\u05E7\u05E2\u05D5\u05EA \u05E0\u05D3\u05DC\u05F4\u05DF \u05D1\u05D3\u05D5\u05D1\u05D0\u05D9" },
       { key: "meta_description", label: "Meta Description", type: "textarea" as const, placeholder: "Your gateway to Dubai real estate...", dir: "ltr" as const },
       { key: "meta_description_he", label: "Meta Description (\u05E2\u05D1\u05E8\u05D9\u05EA)", type: "textarea" as const, placeholder: "\u05D4\u05D3\u05E8\u05DA \u05E9\u05DC\u05DA \u05DC\u05D4\u05E9\u05E7\u05E2\u05D5\u05EA \u05E0\u05D3\u05DC\u05F4\u05DF \u05D1\u05D3\u05D5\u05D1\u05D0\u05D9..." },
       { key: "meta_keywords", label: "Meta Keywords", type: "text" as const, placeholder: "dubai, real estate, investment", dir: "ltr" as const },
       { key: "og_image", label: "OG Image URL", type: "text" as const, placeholder: "https://...", dir: "ltr" as const },
-      { key: "canonical_url", label: "Canonical URL", type: "text" as const, placeholder: "https://ddl-dubai.com", dir: "ltr" as const },
+      { key: "canonical_url", label: "Canonical URL", type: "text" as const, placeholder: "https://propline.com", dir: "ltr" as const },
       { key: "google_analytics_id", label: "Google Analytics ID", type: "text" as const, placeholder: "G-XXXXXXXXXX", dir: "ltr" as const },
       { key: "google_tag_manager_id", label: "Google Tag Manager ID", type: "text" as const, placeholder: "GTM-XXXXXXX", dir: "ltr" as const },
     ],
@@ -397,17 +397,17 @@ export function SettingsView() {
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label className="flex items-center gap-2"><Building2 className="h-4 w-4 text-slate-400" />שם המותג</Label>
-                    <Input value={siteSettings.brandName} onChange={(e) => setSiteSettings((p) => ({ ...p, brandName: e.target.value }))} className="bg-slate-50 border-slate-200" placeholder="DDL Real Estate" />
+                    <Input value={siteSettings.brandName} onChange={(e) => setSiteSettings((p) => ({ ...p, brandName: e.target.value }))} className="bg-slate-50 border-slate-200" placeholder="PropLine Real Estate" />
                   </div>
                   <div className="space-y-2">
                     <Label className="flex items-center gap-2"><Globe className="h-4 w-4 text-slate-400" />כתובת האתר</Label>
-                    <Input value={siteSettings.website} onChange={(e) => setSiteSettings((p) => ({ ...p, website: e.target.value }))} className="bg-slate-50 border-slate-200 text-left" dir="ltr" placeholder="https://ddl-dubai.com" />
+                    <Input value={siteSettings.website} onChange={(e) => setSiteSettings((p) => ({ ...p, website: e.target.value }))} className="bg-slate-50 border-slate-200 text-left" dir="ltr" placeholder="https://propline.com" />
                   </div>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label className="flex items-center gap-2"><Mail className="h-4 w-4 text-slate-400" />אימייל</Label>
-                    <Input type="email" value={siteSettings.email} onChange={(e) => setSiteSettings((p) => ({ ...p, email: e.target.value }))} className="bg-slate-50 border-slate-200 text-left" dir="ltr" placeholder="info@ddl-dubai.com" />
+                    <Input type="email" value={siteSettings.email} onChange={(e) => setSiteSettings((p) => ({ ...p, email: e.target.value }))} className="bg-slate-50 border-slate-200 text-left" dir="ltr" placeholder="info@propline.com" />
                   </div>
                   <div className="space-y-2">
                     <Label className="flex items-center gap-2"><Phone className="h-4 w-4 text-slate-400" />טלפון</Label>

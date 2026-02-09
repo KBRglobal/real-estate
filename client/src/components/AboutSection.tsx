@@ -64,7 +64,7 @@ export function AboutSection() {
               <div className="relative z-10 flex justify-center mb-4 sm:mb-8">
                 <img
                   src={ddlLogo}
-                  alt="DDL Real Estate - לוגו חברת נדל״ן יוקרה בדובאי"
+                  alt="PropLine Real Estate"
                   className="h-16 sm:h-24 lg:h-32 w-auto"
                   style={{
                     filter: "drop-shadow(0 0 20px rgba(212, 175, 55, 0.3))",
